@@ -1,19 +1,19 @@
-export default function Main ({img, countryName, link, placeName, date, info}) {
+export default function Main (props) {
     return (
         <main>
             <section>
-                <img id="place" src={img} alt="name"></img>
+                <img id="place" src={props.img} alt="name"></img>
                 <div className="info">
                     <img id="mark" src="./img/marker.png" alt="location"></img>
-                    <span>{countryName}</span>
-                     <a href={link}>
+                    <span>{props.countryName}</span>
+                    <a href={props.link}>
                         View on Google Maps
-                     </a>
+                    </a>
                 </div>
                 <div className="info-m-f">
-                    <h1>{placeName}</h1>
-                  <big><p>{date}</p></big>
-                  <span>{info}</span>
+                    <h1>{props.placeName}</h1>
+                    <big><p>{props.date}</p></big>
+                    <span>{props.info}</span>
                 </div>
             </section>
         </main>
