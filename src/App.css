@@ -101,3 +101,9 @@ section {
 .info-m > h1 {
   font-size: 40px;
 }
+
+.footer {
+  display: grid;
+  place-items: center;
+  height: 100px;
+}
