@@ -1,5 +1,6 @@
 export default [
     {
+        id: 1,
         img:"./img/Fuji.png",
         countryName:"Japan",
         link:"https://www.google.com/maps/place/Mount+Fuji/@35.3606421,138.7170637,15z/data=!3m1!4b1!4m6!3m5!1s0x6019629a42fdc899:0xa6a1fcc916f3a4df!8m2!3d35.3606255!4d138.7273634!16zL20vMGNrczA?entry=ttu",
@@ -9,6 +10,7 @@ export default [
     },
 
     {
+        id: 2,
         img:"./img/Sydney.jpg",
         countryName:"Australia",
         link:"https://www.google.com/maps/place/Sydney+Opera+House/@-33.8567844,151.213108,17z",
@@ -18,6 +20,7 @@ export default [
     },
 
     {
+        id: 3,
         img:"./img/geirangerfjord.png",
         countryName:"Norway",
         link:"https://www.google.com/maps/place/Geirangerfjord/@62.1049113,7.0752134,12z/data=!3m1!4b1!4m5!3m4!1s0x46169d427b5b6c6f:0x1b0f8b4b0f8b0f8b!8m2!3d62.1049113!4d7.0752134",
