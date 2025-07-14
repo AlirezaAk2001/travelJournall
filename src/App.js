@@ -8,12 +8,8 @@ import Footer from './travelJournal/Footer';
 function App() {
   const travelJournal = travelData.map((travel) => {
     return <Main
-      img={travel.img} 
-      countryName={travel.countryName} 
-      link={travel.link} 
-      placeName={travel.placeName}
-      date={travel.date}
-      info={travel.info}
+      key={travel.id}
+      {...travel}                                 
     />
   })
   return (
